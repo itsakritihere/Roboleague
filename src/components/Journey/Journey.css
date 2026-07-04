@@ -1,0 +1,155 @@
+/* Section */
+
+.journey-section{
+    padding:100px 80px;
+}
+
+/* Heading */
+
+.journey-heading{
+    max-width:700px;
+    margin:0 auto 70px;
+}
+
+.journey-heading h2{
+    margin-top:12px;
+    margin-bottom:18px;
+}
+
+/* Timeline */
+
+.journey-timeline{
+
+    max-width:1250px;
+
+    width:100%;
+
+    margin:0 auto;
+
+    padding:0 40px;
+}
+
+/* Each Step */
+
+.journey-step{
+
+    width:220px;
+}
+
+/* Circle */
+
+.journey-step img{
+
+    width:55px;
+    height:55px;
+}
+
+/* ---------------- Tablet ---------------- */
+
+@media (max-width:992px){
+
+.journey-section{
+
+padding:80px 40px;
+}
+
+.journey-timeline{
+
+padding:0 20px;
+}
+
+.journey-step{
+
+width:180px;
+}
+
+.journey-heading h2{
+
+font-size:38px;
+}
+
+}
+
+/* ---------------- Mobile ---------------- */
+
+@media (max-width:768px){
+
+.journey-section{
+
+padding:70px 20px;
+}
+
+.journey-heading h2{
+
+font-size:32px;
+}
+
+.journey-heading p{
+
+font-size:15px;
+}
+
+.journey-timeline{
+
+display:grid;
+
+grid-template-columns:repeat(2,1fr);
+
+gap:40px;
+
+padding:0;
+}
+
+/* Remove horizontal blue line */
+
+.journey-timeline > div:first-child{
+
+display:none;
+}
+
+.journey-step{
+
+width:100%;
+}
+
+.journey-step>div:first-child{
+
+width:100px;
+height:100px;
+}
+
+.journey-step img{
+
+width:45px;
+height:45px;
+}
+
+}
+
+/* ---------------- Small Phones ---------------- */
+
+@media (max-width:480px){
+
+.journey-section{
+
+padding:60px 15px;
+}
+
+.journey-heading h2{
+
+font-size:26px;
+}
+
+.journey-heading p{
+
+font-size:14px;
+}
+
+.journey-timeline{
+
+grid-template-columns:1fr;
+
+gap:50px;
+}
+
+}
