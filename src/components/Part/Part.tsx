@@ -30,13 +30,16 @@ function Part() {
 
   {/* Content */}
  <div className="relative z-10 flex items-center min-h-[85vh] pl-24 pr-12 md:pl-32 lg:pl-40">
-   <div className="max-w-2xl ml-16">
-
-      <h1 className="text-5xl md:text-6xl lg:text-7xl font-semibold leading-tight text-white ml:5">
-        INDIA'S ULTIMATE
-        <br />
-        ROBOTICS ARENA
-      </h1>
+  <div className="max-w-2xl ml-16">
+   <h1
+  className="text-[2.8rem] md:text-[3.8rem] lg:text-[4.5rem] font-semibold leading-tight text-white whitespace-nowrap"
+  style={{ fontFamily: "Orbitron, sans-serif" }}
+>
+  INDIA'S ULTIMATE
+  <br />
+  ROBOTICS ARENA
+</h1>
+  
 
       <p className="mt-10 text-lg leading-8 text-gray-300">
         Build. Compete. Rank. The National

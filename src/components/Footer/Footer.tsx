@@ -30,9 +30,11 @@ function Footer() {
     <footer className="bg-black text-white px-20 py-16">
 
       {/* Heading */}
+       <div className="h-4"></div>
       <div className="flex">
-        <div className="w-12"></div>
-        <h3 className="mb-5 text-5xl font-semibold uppercase tracking-wide">
+        <div className="w-6"></div>
+          
+        <h3 className="mb-5 text-5xl font-semibold uppercase tracking-wide" style={{ fontFamily: "Orbitron, sans-serif" }}>
           Join The Ecosystem
         </h3>
       </div>
@@ -49,7 +51,7 @@ function Footer() {
             key={index}
             className="flex flex-col w-full rounded-lg border border-gray-700 bg-[#1B1B1B] p-6"
           >
-            <h3 className="mb-5 text-base font-semibold uppercase tracking-wide">
+            <h3 className="mb-5 text-base font-semibold uppercase tracking-wide" style={{ fontFamily: "Orbitron, sans-serif" }}>
               {title}
             </h3>
 
@@ -85,7 +87,7 @@ function Footer() {
         <div className="h-12"></div>
       <div className="flex">
         <div className="w-12"></div>
-        <h3 className="mt-14 mb-6 text-xl font-semibold uppercase tracking-wide">
+        <h3 className="mt-14 mb-6 text-xl font-semibold uppercase tracking-wide" style={{ fontFamily: "Orbitron, sans-serif" }}>
           Sponsors
         </h3>
           <div className="h-4"></div>

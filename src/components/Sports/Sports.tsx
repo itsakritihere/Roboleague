@@ -31,11 +31,11 @@ function Sports() {
       {/* Content */}
       <div className="relative z-10">
         <div className="h-12"></div>
-        <p className="text-red-500 text-lg font-semibold uppercase">
+        <p className="text-red-500 text-lg font-semibold uppercase" style={{ fontFamily: "Orbitron, sans-serif" }}>
           Sports
         </p>
 
-        <h2 className="mt-2 text-5xl font-bold uppercase">
+        <h2 className="mt-2 text-5xl font-bold uppercase" style={{ fontFamily: "Orbitron, sans-serif" }}>
           Competition Disciplines
         </h2>
         <div className="h-2"></div>

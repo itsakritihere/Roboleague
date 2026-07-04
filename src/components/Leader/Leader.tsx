@@ -38,11 +38,11 @@ function Register() {
 
           <div className="h-24"></div>
 
-          <p className="text-red-500 text-4xl font-semibold uppercase tracking-wide">
+          <p className="text-red-500 text-4xl font-semibold uppercase tracking-wide" style={{ fontFamily: "Orbitron, sans-serif" }}>
             Why Register?
           </p>
 
-          <h2 className="text-4xl font-semibold uppercase tracking-wide">
+          <h2 className="text-4xl font-semibold uppercase tracking-wide" style={{ fontFamily: "Orbitron, sans-serif" }}>
             The League Advantage
           </h2>
 

@@ -16,14 +16,15 @@ function Header() {
     <nav className="nav">
       <ul className="flex items-center gap-8 text-[13px] text-gray-300">
            <li className="relative cursor-pointer text-white "
-            style={{ fontFamily: "Michroma, sans-serif" }}>
+            
+               style={{ fontFamily: "Orbitron, sans-serif" }}>
           Events
           <span className="absolute left-0 -bottom-5 h-[2px] w-full bg-red-500"></span>
         </li>
 
-        <li className="cursor-pointer hover:text-white">Programs</li>
-        <li className="cursor-pointer hover:text-white">Community</li>
-        <li className="cursor-pointer hover:text-white">Ranks</li>
+        <li className="cursor-pointer hover:text-white" style={{ fontFamily: "Orbitron, sans-serif" }}>Programs</li>
+        <li className="cursor-pointer hover:text-white" style={{ fontFamily: "Orbitron, sans-serif" }}>Community</li>
+        <li className="cursor-pointer hover:text-white" style={{ fontFamily: "Orbitron, sans-serif" }}>Ranks</li>
       </ul>
     </nav>
 

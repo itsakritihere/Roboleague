@@ -36,7 +36,7 @@ function Journey() {
           User Journey
         </p>
 
-        <h2 className="mt-2 text-5xl font-bold uppercase">
+        <h2 className="mt-2 text-5xl font-bold uppercase" style={{ fontFamily: "Orbitron, sans-serif" }}>
           Your Path To The League
         </h2>
 

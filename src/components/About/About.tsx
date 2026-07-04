@@ -64,7 +64,7 @@ function About() {
 
           <div className="lg:pl-10">
 
-            <h2 className="mb-12 text-4xl lg:text-5xl font-bold uppercase">
+            <h2 className="mb-12 text-4xl lg:text-5xl font-bold uppercase" style={{ fontFamily: "Orbitron, sans-serif" }}>
               What is BotLeague?
             </h2>
 
@@ -113,7 +113,7 @@ function About() {
         <div className="mt-18 pb-20">
 
   {/* Categories Heading */}
-  <h2 className="mb-20 pl-6 text-4xl lg:text-5xl font-bold uppercase">
+  <h2 className="mb-20 pl-6 text-4xl lg:text-5xl font-bold uppercase" style={{ fontFamily: "Orbitron, sans-serif" }}>
     Categories
   </h2>
   <div className="h-12"></div>

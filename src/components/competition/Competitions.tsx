@@ -8,16 +8,16 @@ function Competitions() {
       <div className="mx-auto max-w-7xl px-8">
 
         {/* Heading */}
-        <h2 className="mb-12 text-[44px] font-semibold uppercase tracking-wide">
+        <h2 className="mb-12 text-[44px] font-semibold uppercase tracking-wide" style={{ fontFamily: "Orbitron, sans-serif" }}>
           Competitions & Events
         </h2>
-
+ <div className="h-8"></div>
         <div className="competition-grid grid grid-cols-3 gap-6">
 
           {/* LIVE NOW */}
 
           <div>
-            <h3 className="mb-4 text-2xl uppercase text-red-500 font-semibold">
+            <h3 className="mb-4 text-2xl uppercase text-red-500 font-semibold" style={{ fontFamily: "Orbitron, sans-serif" }}>
               Live Now
             </h3>
 
@@ -26,7 +26,7 @@ function Competitions() {
               <div className="flex items-start justify-between">
 
                 <div>
-                  <h4 className="text-2xl font-semibold">
+                  <h4 className="text-2xl font-semibold" >
                     Bengaluru Regionals
                   </h4>
 
@@ -57,7 +57,7 @@ function Competitions() {
 
           <div>
 
-            <h3 className="mb-4 text-2xl uppercase font-semibold">
+            <h3 className="mb-4 text-2xl uppercase font-semibold" style={{ fontFamily: "Orbitron, sans-serif" }}>
               Upcoming
             </h3>
 
@@ -100,7 +100,7 @@ function Competitions() {
 
               <div className="upcoming-card rounded-md border border-gray-700 bg-[#232323] p-5">
 
-                <h4 className="mb-5 text-2xl font-semibold">
+                <h4 className="mb-5 text-2xl font-semibold" >
                   Event in Delhi
                 </h4>
 
@@ -137,7 +137,7 @@ function Competitions() {
 
           <div  className="border-b border-gray-700">
 
-            <h3  className="border-b border-gray-700 mb-4 text-2xl uppercase font-semibol d">
+            <h3  className="border-b border-gray-700 mb-4 text-2xl uppercase font-semibol d" style={{ fontFamily: "Orbitron, sans-serif" }}>
               Past Results
             </h3>
 
