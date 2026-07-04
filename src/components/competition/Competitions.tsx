@@ -90,7 +90,7 @@ function Competitions() {
 
                 </div>
 
-                <button className="w-full rounded bg-[#ff4d4d] py-3 text-lg font-semibold uppercase transition hover:bg-red-600">
+                <button className="rounded bg-[#ff4d4d] py-3 text-lg font-semibold uppercase transition hover:bg-red-600">
                   Register
                 </button>
 
@@ -123,7 +123,7 @@ function Competitions() {
 
                 </div>
 
-                <button className="w-full rounded bg-[#ff4d4d] py-3 text-lg font-semibold uppercase transition hover:bg-red-600">
+                <button className="rounded bg-[#ff4d4d] py-3 text-lg font-semibold uppercase transition hover:bg-red-600">
                   Register
                 </button>
 
